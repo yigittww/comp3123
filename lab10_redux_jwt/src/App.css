@@ -1,0 +1,295 @@
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  color: #59359a;
+}
+
+.subtitle {
+  margin: 2px 0;
+  color: #4a5568;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dde3ec;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(20, 30, 60, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #2d3748;
+  border-bottom: 2px solid #eee7fb;
+  padding-bottom: 8px;
+}
+
+.mini-card {
+  background: #fafbfe;
+  border: 1px solid #e3e8f2;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.mini-card h3 {
+  margin-top: 0;
+}
+
+.redux-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.big-number {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin: 6px 0 12px;
+  color: #59359a;
+}
+
+.btn-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.btn-row.wrap {
+  flex-wrap: wrap;
+}
+
+button {
+  background: #59359a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #472a7d;
+}
+
+button.small {
+  padding: 3px 9px;
+  font-size: 12px;
+  background: #718096;
+}
+
+input {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.amount-input {
+  width: 72px;
+}
+
+.hint {
+  color: #718096;
+  font-size: 13px;
+}
+
+.todo-list,
+.cart-list,
+.log-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.todo-list li.done label {
+  text-decoration: line-through;
+  color: #a0aec0;
+}
+
+.todo-list label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.state-json {
+  background: #1a202c;
+  color: #9ae6b4;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 12.5px;
+  max-height: 340px;
+  overflow: auto;
+}
+
+.log-list li {
+  padding: 3px 0;
+  border-bottom: 1px dashed #e2e8f0;
+  font-size: 13px;
+}
+
+.log-time {
+  color: #a0aec0;
+  font-size: 12px;
+}
+
+.concepts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.concepts-table th,
+.concepts-table td {
+  border: 1px solid #e2e8f0;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.concepts-table th {
+  background: #f3efff;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 360px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.error {
+  background: #fff5f5;
+  border: 1px solid #feb2b2;
+  color: #9b2c2c;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.notice {
+  background: #ebf8ff;
+  border: 1px solid #90cdf4;
+  color: #2a4365;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.profile-box {
+  background: #f0fff4;
+  border: 1px solid #9ae6b4;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+}
+
+.profile-box ul {
+  margin: 6px 0;
+  padding-left: 18px;
+}
+
+.countdown {
+  font-size: 15px;
+}
+
+.jwt-box {
+  border: 1px solid #e3e8f2;
+  border-radius: 10px;
+  padding: 14px 18px;
+  background: #fafbfe;
+}
+
+.token-raw {
+  word-break: break-all;
+  font-family: Consolas, monospace;
+  font-size: 12.5px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.part-header {
+  color: #c53030;
+  font-weight: 700;
+}
+
+.part-payload {
+  color: #59359a;
+  font-weight: 700;
+}
+
+.part-signature {
+  color: #2b6cb0;
+  font-weight: 700;
+}
+
+.jwt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.jwt-grid pre {
+  background: #1a202c;
+  color: #faf089;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 12.5px;
+  overflow: auto;
+}
+
+.jwt-grid pre.sig {
+  word-break: break-all;
+  white-space: pre-wrap;
+  color: #90cdf4;
+}
+
+footer {
+  text-align: center;
+  color: #718096;
+  font-size: 13px;
+}
